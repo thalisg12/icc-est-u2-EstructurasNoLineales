@@ -21,5 +21,17 @@ public class App {
         System.out.println("Arbol Binario InOrden:");
         ab.imprimirInOrden();
 
+        // Deber
+        // booleano: imprimir si encontro o no
+        if (ab.findeValue(23)) {
+            System.out.println("Encontro el valor 23");
+        } else {
+            System.out.println("Encontro el valor 23");
+        }
+        if (ab.findeValue(77)) {
+            System.out.println("Encontro e valor 77");
+        } else {
+            System.out.println("Encontro el valor 77");
+        }
     }
 }

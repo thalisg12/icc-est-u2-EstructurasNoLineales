@@ -75,4 +75,22 @@ public class BinaryTree {
 
     }
 
+    public boolean findeValue(int value) {
+        return buscarValor(root, value);
+    }
+
+    private boolean buscarValor(Node node, int value) {
+        if (node == null) {
+            return false;
+        }
+        if (node.getValor() == value) {
+            return true;
+        }
+        if (value < node.getValor()) {
+            return buscarValor(node.getIzquierda(), value);
+        } else {
+            return buscarValor(node.getDerecha(), value);
+        }
+    }
+
 }
