@@ -6,3 +6,4 @@
 
 ### Salida de la consola
 ![Captura de terminal](image.png)
+![Tarea](image-1.png)

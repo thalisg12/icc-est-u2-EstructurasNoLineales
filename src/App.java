@@ -1,8 +1,11 @@
+import Materia.controllers.AVLTree;
 import Materia.controllers.BinaryTree;
 
 public class App {
     public static void main(String[] args) throws Exception {
         BinaryTree ab = new BinaryTree();
+
+        AVLTree av = new AVLTree();
         ab.insert(50);
         ab.insert(17);
         ab.insert(76);
@@ -71,6 +74,18 @@ public class App {
 
         System.out.println("\nArbol InOrder con factor de equilibrio");
         ab.imprimirInOrdenBalanceYDesequilibrio();
+
+        
+        av.insert(5);
+        av.insert(20);
+        av.insert(15);
+
+       
+
+
+
     }
+
+
 
 }
